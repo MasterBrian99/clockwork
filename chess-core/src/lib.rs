@@ -5,6 +5,8 @@ pub mod magic_simple;
 pub  mod moves;
 pub  mod position;
 pub mod movegen;
+pub  mod evaluate;
+pub  mod search;
 
 /// Result type for chess operations
 pub type Result<T> = std::result::Result<T, Error>;
