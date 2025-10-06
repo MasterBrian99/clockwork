@@ -6,4 +6,6 @@ edition.workspace = true
 license.workspace = true
 repository.workspace = true
 
+
 [dependencies]
+chess_core = { path = "../chess-core" }

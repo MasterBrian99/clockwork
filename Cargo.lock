@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "chess-core"
+name = "chess_core"
 version = "0.1.0"
 dependencies = [
  "lazy_static",
@@ -13,6 +13,10 @@ dependencies = [
 [[package]]
 name = "clockwork"
 version = "0.1.0"
+dependencies = [
+ "chess_core",
+ "uci",
+]
 
 [[package]]
 name = "lazy_static"
@@ -72,6 +76,9 @@ dependencies = [
 [[package]]
 name = "uci"
 version = "0.1.0"
+dependencies = [
+ "chess_core",
+]
 
 [[package]]
 name = "unicode-ident"
